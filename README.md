@@ -12,6 +12,12 @@
 - Internet connection for accessing Testudo and sending email notifications.
 - Access to Testudo's term and class IDs.
 
+## Important Notes
+
+- **Not a Web Scraper:** This script does not scrape the website for data. It directly checks the "Schedule of Classes" section on Testudo, which is publicly accessible.
+- **No Special Benefits:** This script does not provide any special privileges or allow you to register for classes before others. It only notifies you when a class becomes available, based on the data provided by Testudo.
+- **Notification Only:** The script sends you an email notification when a class opens up. It does not automate the registration process.
+
 ## Installation
 
 1. **Clone the Repository:**
@@ -36,7 +42,10 @@ Before running the script, you need to update a few placeholders in the code:
 1. **Term ID:**
 
    - Search for `PUT_TERM_ID_HERE` in the code.
-   - Replace it with the term ID you are interested in (e.g., Fall 2024, Spring 2025).
+   - Replace it with the term ID you are interested in which is found here:
+   - <img width="718" alt="image" src="https://github.com/user-attachments/assets/eb209758-46d7-4529-b584-f53ed93ff03d">
+   - <img width="964" alt="image" src="https://github.com/user-attachments/assets/c531ac90-f9ce-4f17-837a-8c2c2326ba2f">
+   - <img width="958" alt="image" src="https://github.com/user-attachments/assets/96c5f6f9-851d-4685-af26-936a138cdd47">
 
 2. **Class Name:**
 
